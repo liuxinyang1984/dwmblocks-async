@@ -16,6 +16,7 @@
 /* X(icon, cmd, interval_sec, signal) — signal 0 = no RTMIN trigger */
 #define BLOCKS(X)                         \
 	X("", "sb-fcitx", 1, 1)           \
+	X("", "sb-battery", 30, 3)        \
 	X("", "sb-datetime", 1, 2)
 
 #endif /* CONFIG_H */
