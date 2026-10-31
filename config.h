@@ -5,7 +5,7 @@
 #define DELIMITER "  "
 
 /* Maximum number of Unicode characters that a block can output. */
-#define MAX_BLOCK_OUTPUT_LENGTH 45
+#define MAX_BLOCK_OUTPUT_LENGTH 64
 
 /* Clicks need dwm statuscmd; off until that patch is applied. */
 #define CLICKABLE_BLOCKS 0
