@@ -14,12 +14,12 @@
 #define TRAILING_DELIMITER 0
 
 /* X(icon, cmd, interval_sec, signal) — signal 0 = no RTMIN trigger */
-/* 顺序：… battery → net → datetime（网络在时间左侧） */
+/* 顺序：volume → battery → net → datetime → fcitx（输入法最右） */
 #define BLOCKS(X)                         \
-	X("", "sb-fcitx", 1, 1)           \
 	X("", "sb-volume", 5, 4)          \
 	X("", "sb-battery", 30, 3)        \
 	X("", "sb-net", 10, 5)            \
-	X("", "sb-datetime", 1, 2)
+	X("", "sb-datetime", 1, 2)        \
+	X("", "sb-fcitx", 1, 1)
 
 #endif /* CONFIG_H */
